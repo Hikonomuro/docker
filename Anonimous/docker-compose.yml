@@ -1,12 +1,12 @@
 version: "0.0.1"
 services: 
-  tor_service:
+  tor:
       container_name: tor_service
       image: "hikonomuro/tor_service_minimal:0.0.1"
       ports:
       - "9001:9001"
       - "9050:9050"
-  i2p_service:
+  i2p:
       container_name: i2p_service
       image: "meeh/i2pd"
       ports:
