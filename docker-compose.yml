@@ -1,8 +1,0 @@
-version: "0.0.1"
-services: 
-  tor_service:
-      container_name: tor_service
-      image: "hikonomuro/tor_service_minimal:0.0.1"
-      ports:
-      - "9001:9001"
-      - "9050:9050"
